@@ -39,7 +39,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadoraDivisaoTest">
+  <component name="RunManager" selected="JUnit.All in Testes (1)">
+    <configuration name="All in Testes (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadoraDivisaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes" />
       <option name="PACKAGE_NAME" value="" />
@@ -49,53 +65,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraDivisaoTest.testSeDivisaoNullComUmNumeroNegativoRetornaException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraMultiplicacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraDivisaoTest" />
-      <option name="METHOD_NAME" value="testSeDivisaoNullComUmNumeroNegativoRetornaException" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraMultiplicacaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraDivisaoTest.testSeDivisaoNullComUmNumeroPositivoRetornaException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraSubtracaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraDivisaoTest" />
-      <option name="METHOD_NAME" value="testSeDivisaoNullComUmNumeroPositivoRetornaException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraDivisaoTest.testSeDivisaoUmNumeroNegativoComNullRetornaException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testes" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraDivisaoTest" />
-      <option name="METHOD_NAME" value="testSeDivisaoUmNumeroNegativoComNullRetornaException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraDivisaoTest.testSeDivisaoUmNumeroNegativoComZeroRetornaException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testes" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculadoraDivisaoTest" />
-      <option name="METHOD_NAME" value="testSeDivisaoUmNumeroNegativoComZeroRetornaException" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CalculadoraSubtracaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Testes (1)" />
+        <item itemvalue="JUnit.All in Testes" />
         <item itemvalue="JUnit.CalculadoraDivisaoTest" />
-        <item itemvalue="JUnit.CalculadoraDivisaoTest.testSeDivisaoUmNumeroNegativoComZeroRetornaException" />
-        <item itemvalue="JUnit.CalculadoraDivisaoTest.testSeDivisaoNullComUmNumeroNegativoRetornaException" />
-        <item itemvalue="JUnit.CalculadoraDivisaoTest.testSeDivisaoUmNumeroNegativoComNullRetornaException" />
-        <item itemvalue="JUnit.CalculadoraDivisaoTest.testSeDivisaoNullComUmNumeroPositivoRetornaException" />
+        <item itemvalue="JUnit.CalculadoraMultiplicacaoTest" />
+        <item itemvalue="JUnit.CalculadoraSubtracaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,22 +123,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579565191957" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579565816044">
+    <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579566971777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579565816044" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579565816044">
+    <state x="756" y="380" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1579566971777" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579567709070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579565816044" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579565816044">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579567709070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1579567709070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579565816044" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579565816044">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579567709070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1579567709070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579565816044" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579567709070" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1579567709070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579567709070" />
     <state x="664" y="414" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579558288063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

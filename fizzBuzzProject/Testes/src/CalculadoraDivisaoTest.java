@@ -4,7 +4,7 @@ import org.junit.Test;
 public class CalculadoraDivisaoTest {
 
     @Test
-    public void testSeDivisaoDoisNumerosPositivosRetornaDivisaotorioDosNumeros() throws Exception {
+    public void testSeDivisaoDoisNumerosPositivosRetornaDivisaotorioDosNumeros  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = 1.0;
@@ -18,7 +18,7 @@ public class CalculadoraDivisaoTest {
     }
 
     @Test
-    public void testSeDivisaoDoisNumerosNegativosRetornaDivisaotorioDosNumeros() throws Exception {
+    public void testSeDivisaoDoisNumerosNegativosRetornaDivisaotorioDosNumeros  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = -1.0;
@@ -32,7 +32,7 @@ public class CalculadoraDivisaoTest {
     }
 
     @Test
-    public void testSeDivisaoDoisNumerosPositivoNegativoRetornaDivisaotorioDosNumeros() throws Exception {
+    public void testSeDivisaoDoisNumerosPositivoNegativoRetornaDivisaotorioDosNumeros  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = -1.0;
@@ -46,7 +46,7 @@ public class CalculadoraDivisaoTest {
     }
 
     @Test
-    public void testSeDivisaoDoisNumerosNegativoPositivoRetornaDivisaotorioDosNumeros() throws Exception {
+    public void testSeDivisaoDoisNumerosNegativoPositivoRetornaDivisaotorioDosNumeros  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = 1.0;
@@ -59,8 +59,8 @@ public class CalculadoraDivisaoTest {
         Assert.assertEquals((Double)(-1.0), resultado);
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSeDivisaoDoisNullRetornaException() throws Exception {
+    @Test(expected =   NullValueException.class)
+    public void testSeDivisaoDoisNullRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = null;
         Double numero2 = null;
@@ -72,8 +72,8 @@ public class CalculadoraDivisaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSeDivisaoUmNumeroPositivoComNullRetornaException() throws Exception {
+    @Test(expected =   NullValueException.class)
+    public void testSeDivisaoUmNumeroPositivoComNullRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = null;
@@ -85,8 +85,8 @@ public class CalculadoraDivisaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSeDivisaoNullComUmNumeroPositivoRetornaException() throws Exception {
+    @Test(expected =   NullValueException.class)
+    public void testSeDivisaoNullComUmNumeroPositivoRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = null;
         Double numero2 = +1.0;
@@ -98,8 +98,8 @@ public class CalculadoraDivisaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSeDivisaoUmNumeroNegativoComNullRetornaException() throws Exception {
+    @Test(expected =   NullValueException.class)
+    public void testSeDivisaoUmNumeroNegativoComNullRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = null;
@@ -111,8 +111,8 @@ public class CalculadoraDivisaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSeDivisaoNullComUmNumeroNegativoRetornaException() throws Exception {
+    @Test(expected =   NullValueException.class)
+    public void testSeDivisaoNullComUmNumeroNegativoRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = null;
         Double numero2 = -1.0;
@@ -125,7 +125,7 @@ public class CalculadoraDivisaoTest {
     }
 
     @Test(expected = Exception.class)
-    public void testSeDivisaoUmNumeroNegativoComZeroRetornaException() throws Exception {
+    public void testSeDivisaoUmNumeroNegativoComZeroRetornaException  ()throws DivisionZeroException, NullValueException{
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = 0.0;

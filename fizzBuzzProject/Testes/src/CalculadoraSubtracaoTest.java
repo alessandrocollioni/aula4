@@ -4,7 +4,7 @@ import org.junit.Test;
 public class CalculadoraSubtracaoTest {
 
     @Test
-    public void testSesubtracaoDoisNumerosPositivosRetornasubtracaotorioDosNumeros(){
+    public void testSesubtracaoDoisNumerosPositivosRetornasubtracaotorioDosNumeros  () throws NullValueException {
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = 1.0;
@@ -18,7 +18,7 @@ public class CalculadoraSubtracaoTest {
     }
 
     @Test
-    public void testSesubtracaoDoisNumerosNegativosRetornasubtracaotorioDosNumeros(){
+    public void testSesubtracaoDoisNumerosNegativosRetornasubtracaotorioDosNumeros  () throws NullValueException {
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = -1.0;
@@ -32,7 +32,7 @@ public class CalculadoraSubtracaoTest {
     }
 
     @Test
-    public void testSesubtracaoDoisNumerosPositivoNegativoRetornasubtracaotorioDosNumeros(){
+    public void testSesubtracaoDoisNumerosPositivoNegativoRetornasubtracaotorioDosNumeros  () throws NullValueException {
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = -1.0;
@@ -46,7 +46,7 @@ public class CalculadoraSubtracaoTest {
     }
 
     @Test
-    public void testSesubtracaoDoisNumerosNegativoPositivoRetornasubtracaotorioDosNumeros(){
+    public void testSesubtracaoDoisNumerosNegativoPositivoRetornasubtracaotorioDosNumeros  () throws NullValueException {
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = 1.0;
@@ -59,8 +59,8 @@ public class CalculadoraSubtracaoTest {
         Assert.assertEquals((Double)(-2.0), resultado);
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSesubtracaoDoisNullRetornaException(){
+    @Test(expected =  NullValueException.class)
+    public void testSesubtracaoDoisNullRetornaException  () throws NullValueException {
         // ENTRADA
         Double numero1 = null;
         Double numero2 = null;
@@ -72,8 +72,8 @@ public class CalculadoraSubtracaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSesubtracaoUmNumeroPositivoComNullRetornaException(){
+    @Test(expected =  NullValueException.class)
+    public void testSesubtracaoUmNumeroPositivoComNullRetornaException  () throws NullValueException {
         // ENTRADA
         Double numero1 = 1.0;
         Double numero2 = null;
@@ -85,8 +85,8 @@ public class CalculadoraSubtracaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSesubtracaoNullComUmNumeroPositivoRetornaException(){
+    @Test(expected =  NullValueException.class)
+    public void testSesubtracaoNullComUmNumeroPositivoRetornaException  () throws NullValueException {
         // ENTRADA
         Double numero1 = null;
         Double numero2 = +1.0;
@@ -98,8 +98,8 @@ public class CalculadoraSubtracaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSesubtracaoUmNumeroNegativoComNullRetornaException(){
+    @Test(expected =  NullValueException.class)
+    public void testSesubtracaoUmNumeroNegativoComNullRetornaException  () throws NullValueException {
         // ENTRADA
         Double numero1 = -1.0;
         Double numero2 = null;
@@ -111,8 +111,8 @@ public class CalculadoraSubtracaoTest {
         // VALIDAÇÃO
     }
 
-    @Test(expected = NullPointerException.class)
-    public void testSesubtracaoNullComUmNumeroNegativoRetornaException(){
+    @Test(expected =  NullValueException.class)
+    public void testSesubtracaoNullComUmNumeroNegativoRetornaException() throws NullValueException {
         // ENTRADA
         Double numero1 = null;
         Double numero2 = -1.0;
